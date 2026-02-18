@@ -1,4 +1,5 @@
-from .scraper1 import Scraper1
-from .scraper2 import Scraper2
-from .scraper3 import Scraper3
-# Add imports for all other scrapers as needed
+# Updated Imports for Scrapers
+from scrapers.espn_scraper import ESPNScraper
+from scrapers.fbrev_scraper import FBrefScraper
+from scrapers.transfermarkt_scraper import TransfermarktScraper
+from scrapers.understat_scraper import UnderstatScraper
